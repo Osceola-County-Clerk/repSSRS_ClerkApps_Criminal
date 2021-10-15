@@ -103,7 +103,7 @@
     <DataSet Name="DataSet3">
       <Query>
         <DataSourceName>BenchmarkReports</DataSourceName>
-        <CommandText>SELECT EndDate = dbo.fnGetDate('DAY', 0, GetDate(), 1);</CommandText>
+        <CommandText>SELECT EndDate = dbo.fnGetDate('DAY', -1, GetDate(), 0);</CommandText>
       </Query>
       <Fields>
         <Field Name="EndDate">
