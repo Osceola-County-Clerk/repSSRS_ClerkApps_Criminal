@@ -53,6 +53,7 @@
     <DataSource Include="ClerkData.rds" />
   </ItemGroup>
   <ItemGroup>
+    <Report Include="BONDFORSCases.rdl" />
     <Report Include="Probate Cases Filed.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
